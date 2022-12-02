@@ -1,1 +1,17 @@
 /*DEVELOPER: Marcela Adiao, IS117-003, Fall, 2022 */
+:root{
+    --cream: #F7F4EF;
+    --yellow: #FEAA00;
+    --green: #788402;
+    --brown: #342628;
+}
+* {background-color: var(--cream)}
+
+/*Navigation Bar*/
+.navbar{
+    background-color: var(--cream);
+}
+
+.nav-link {
+    color: var(--brown);
+}
