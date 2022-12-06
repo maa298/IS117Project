@@ -5,13 +5,70 @@
     --green: #788402;
     --brown: #342628;
 }
+
 * {background-color: var(--cream)}
+
+header{
+    padding-left: 15px;
+    color: var(--brown);
+}
+
 
 /*Navigation Bar*/
 .navbar{
+    width: 100%;
     background-color: var(--cream);
+    margin: 0;
+}
+.navbar.container-fluid{
+    margin:0;
 }
 
-.nav-link {
+.navbar a{
+    width: 25%;
+    color: var(--brown);
+}
+
+.navbar a:hover{
+    color: var(--green);
+}
+/* Home */
+.mt-4 h1{
+    background-color: #198754;
+}
+
+.mt-4 p{
+    background-color: #198754;
+}
+/* Previous Projects*/
+.proj-list dl{
+    padding: 5px;
+}
+
+/* About Me Page */
+.am-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.about-me-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: var(--brown);
+}
+.about-me-text p{
+    text-indent: 25px;
+    padding-left: 5px;
+    color: var(--brown);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: var(--brown);
 }
