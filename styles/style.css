@@ -104,6 +104,14 @@ header{
     padding-left: 5px;
     color: var(--brown);
 }
+
+#img-self{
+    width: 20%;
+    height: 20%;
+    border-radius: 25px;
+    float:right;
+    padding-left: 5px;
+}
 /*Footer*/
 footer{
     position: fixed;
