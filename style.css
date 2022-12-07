@@ -6,11 +6,19 @@
     --brown: #342628;
 }
 
-* {background-color: var(--cream)}
+html, body{
+    width:100%;
+    min-height:100%;
+}
 
+.bg-wrapper{
+    background-color: var(--cream);
+}
 header{
     padding-left: 15px;
     color: var(--brown);
+    background-color: var(--cream);
+
 }
 
 
@@ -25,7 +33,6 @@ header{
 }
 
 .navbar a{
-    width: 25%;
     color: var(--brown);
 }
 
@@ -33,12 +40,17 @@ header{
     color: var(--green);
 }
 /* Home */
-.mt-4 h1{
-    background-color: #198754;
+.card-body{
+    background-color: var(--green);
+    color: var(--brown);
 }
 
-.mt-4 p{
-    background-color: #198754;
+.card-body a{
+    color: var(--brown);
+}
+
+.card-body a:hover{
+    color: var(--yellow);
 }
 /* Previous Projects*/
 .proj-list dl{
@@ -71,4 +83,5 @@ footer{
     bottom: 0;
     width: 100%;
     color: var(--brown);
+    background-color: var(--cream);
 }
